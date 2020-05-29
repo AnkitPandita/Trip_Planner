@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/iv_trip_layout"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/trip_image_placeholder" />
+
+    <TextView
+        android:id="@+id/tv_trip_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Trip Title"
+        android:textSize="16sp" />
+
+</LinearLayout>
